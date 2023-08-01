@@ -10,6 +10,8 @@ cmd([[
     filetype plugin indent on
 ]])
 
+require('plugins')
+
 
 opt.backspace = {"eol", "start", "indent"} -- allow backspacing over everything in insert mode
 opt.clipboard = "unnamedplus" -- allow neovim to access the system clipboard
